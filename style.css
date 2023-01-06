@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* == Banner Section Design == */
+.bannerSection {
+    background-image: url(./images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 680px;
+    color: #fff;
+    position: relative;
+}
+
+.bannerContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: right;
+    width: 450px;
+    transform: translate(25%, -50%);
+}
+
+.bannerHeading {
+    font-size: 40px;
+}
+
+.bannerDescription {
+    padding: 20px 0;
+    line-height: 25px;
+}
+
+.bannerButton,
+.callToButton {
+    background-color: #fff;
+    color: #1560A8;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* == Main Section Design == */
+.mainSection,
+.footerArea {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* == Sologan Section Design == */
+.sloganSection {
+    display: flex;
+    margin: 100px 0;
+}
+
+.sologanImage {
+    margin: 0 50px;
+}
+
+.sologanContent {
+    padding: 100px 0;
+    margin-left: 50px;
+}
+
+.sologanContentHeading {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+.sologanContentDescription,
+.footerDescription {
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.sologanContent>ul li {
+    line-height: 30px;
+    list-style: none;
+}
+
+.sologanContent>ul li i {
+    color: #008000;
+    margin-right: 15px;
+}
+
+/* == Plans Section Design == */
+.myPlansHeading {
+    text-align: center;
+    font-size: 30px;
+}
+
+.myPlans {
+    display: flex;
+    margin: 50px 0;
+}
+
+.pansCard {
+    width: 250px;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.planHeading {
+    margin: 15px 0;
+}
+
+.planDescription {
+    color: #737272;
+    font-weight: bold;
+}
+
+/* == Call To Action Design == */
+
+.callToAction {
+    background-image: linear-gradient(to right, rgb(0 114 255 / 56%), rgba(255, 255, 255, 0)), url(./images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    margin: 100px 0;
+}
+
+.callToActionArea {
+    padding: 80px 50px;
+    width: 500px;
+}
+
+.callHeading {
+    color: #fff;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.callToButton {
+    background-color: #fff;
+    color: #1560A8;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* == Footer Design == */
+.footerSection {
+    background-color: #000;
+    color: #fff;
+    line-height: 30px;
+}
+
+.footerArea {
+    display: flex;
+}
+
+.footerLeft,
+.footerRight {
+    width: 570px;
+    padding: 100px 50px 100px 0;
+}
+
+.footerLeftHeading,
+.footerRightHeading {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.footerLeft i {
+    margin-right: 10px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.footerRight input {
+    padding: 15px 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.footerRight button {
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    background: #1560A8;
+    color: #fff;
+    cursor: pointer;
+}
